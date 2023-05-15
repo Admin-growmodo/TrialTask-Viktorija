@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play your favorite song</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./libraries/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./libraries/jquery.slim.min.js"></script>
+    <script src="./libraries/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <main>
+        <div class="rectangle"
+            style="background: linear-gradient(to bottom right, transparent calc(50% - 1px), transparent, #0c1524 calc(50% + 1px));">
+        </div>
+        <section class="text-center text-white px-5 play-your-favorite-songs">
+            <div class="container p-0">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <h2><strong>Play your favorite songs.</strong></h2>
+                        <p class="pt-2">You'll have <strong>all the tools you need</strong> to make sure you never miss a note</p>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="flex flex-wrap lg:flex-nowrap items-center justify-center mt-4 sm:mt-6 lg:my-6">
+                            <video type="button"  data-toggle="modal" data-target="#staticBackdrop"
+                                data-src="./assets/video/someone-like-you2.mp4" type="video/mp4" autoplay=""
+                                loop="" playsinline="" muted=""
+                                src="./assets/video/someone-like-you2.mp4">
+                            </video>
+                            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                        </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 px-0 pt-3 pb-3">
+                        <div class="text-left w-100 lg:mt-0 lg:pr-8 tablet-style">
+                            <div class="flex mb-6 lg:my-6">
+                                <div class="w-10 sm:w-14 flex-grow-0">
+                                    <img alt="point icon"
+                                        src="./assets/img/songs-icon.svg"
+                                        class="h-6 sm:h-10">
+                                </div>
+                                <div class="flex-grow pl-4">
+                                    <h5>1000+ popular songs.</h5>
+                                    <p class="mt-1 sm:mt-2 text-sm">Get note-for-note song breakdowns for<br> every style, era, and skill level. </p>
+                                </div>
+                            </div>
+                            <div class="flex mb-6 lg:my-6">
+                                <div class="w-10 sm:w-14 flex-grow-0">
+                                    <img alt="point icon"
+                                        src="./assets/img/tempo-icons.svg"
+                                        class="h-6 sm:h-10">
+                                </div>
+                                <div class="flex-grow pl-4">
+                                    <h5>Find the perfect tempo.</h5>
+                                    <p class="mt-1 sm:mt-2 text-sm">Slow down any section of a song<br> to make those tricky bars easier. </p>
+                                </div>
+                            </div>
+                            <div class="flex mb-6 lg:my-6">
+                                <div class="w-10 sm:w-14 flex-grow-0">
+                                    <img alt="point icon"
+                                        src="./assets/img/loop-icons.svg" class="h-6 sm:h-10">
+                                </div>
+                                <div class="flex-grow pl-4">
+                                    <h5><strong>Loop the hard parts.</strong></h5>
+                                    <p class="mt-1 sm:mt-2 text-sm">Create practice loops to play-through <br> those difficult parts over and over. </p>
+                                </div>
+                            </div>
+                            <div class="flex mb-6 lg:my-6">
+                                <div class="w-10 sm:w-14 flex-grow-0">
+                                    <img alt="point icon"
+                                        src="./assets/img/timing-icons.svg" class="h-6 sm:h-10">
+                                </div>
+                                <div class="flex-grow pl-4">
+                                    <h5>Improve your timing.</h5>
+                                    <p class="mt-1 sm:mt-2 text-sm">Use the built-in-metronome - your new <br> best friend for difficult rhythms.</p>
+                                </div>
+                            </div>
+                            <div class="flex mb-6 lg:my-6">
+                                <div class="w-10 sm:w-14 flex-grow-0">
+                                    <img alt="point icon"
+                                        src="./assets/img/devices-icons.svg" class="h-6 sm:h-10">
+                                    </div>
+                                <div class="flex-grow pl-4">
+                                    <h5>Take your songs anywhere</h5>
+                                    <p class="mt-1 sm:mt-2 text-sm">Accessible on any device, or printable, <br>so you can play any song, any time. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3 justify-content-center">
+                    <a class="first-btn" href="#" >
+                        SEE SONGS LIST 
+                        <i class="fa-solid fa-music"></i>
+                    </a>
+                    <a class="second-btn" href="#">
+                        START FOR FREE 
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <p class="text-center text-sm italic-text pt-3">Songs included with Pianote+</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
